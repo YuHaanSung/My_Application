@@ -7,26 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class setting extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_setting);
 
-
-        Button imageButton = (Button) findViewById(R.id.button);
+        Button imageButton = (Button) findViewById(R.id.button7);
         imageButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Register.class);
-                startActivity(intent);
-            }
-        });
-
-        Button imageButton2 = (Button) findViewById(R.id.button2);
-        imageButton2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -35,4 +24,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }

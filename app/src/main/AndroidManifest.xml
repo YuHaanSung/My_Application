@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".free"
+            android:exported="true" />
+        <activity
+            android:name=".mypage"
+            android:exported="true" />
+        <activity
+            android:name=".planner"
+            android:exported="true" />
+        <activity
+            android:name=".Ranking"
+            android:exported="true" />
+        <activity
+            android:name=".Group"
+            android:exported="true" />
+        <activity
+            android:name=".setting"
+            android:exported="true" />
+        <activity
+            android:name=".menu"
+            android:exported="true" />
+        <activity
+            android:name=".Basic"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Register"
             android:exported="true" />
